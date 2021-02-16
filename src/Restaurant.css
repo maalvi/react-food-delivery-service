@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 5px rgb(190, 190, 190);
+}
+
+.restaurant__image {
+  position: relative;
+  width: 100%;
+}
+
+.restaurant__image > img {
+  border-radius: 30px;
+  max-height: 440px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.restaurant__rating {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  top: 10px;
+  right: 3%;
+  width: 70px;
+  color: white;
+  font: bold 24px/45px 'Open Sans', Sans-Serif;
+  letter-spacing: 2px;
+  background: rgba(47, 47, 47, 0.8);
+  padding: 2%;
+}
+
+.restaurant__details {
+  display: flex;
+}
+
+.restaurant__name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.restaurant__distance {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  flex: 1;
+}
+
+.restaurant__deliverFee {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: right;
+}
