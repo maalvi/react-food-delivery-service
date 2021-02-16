@@ -1,7 +1,5 @@
 # Foodi
 
-Description
----------------------
 This project was designed with the aim to help people order food without having to physically leave their homes. COVID-19 has made it difficult for many to go to restaurants, and thus "Foodi", a food delivery service, was designed to solve that problem.
 
 This was my first time using React, and I learned a lot. Functional Components were used instead of Class Components as they are becoming more popular in the React scene. Throughout this process, I gained experience in JSX, React, Imports, and learned the benefit of using React over other tools. I am still working hard on the other pages, but the main concept is clear, which is why I decided to release it for now.
@@ -10,8 +8,6 @@ Another thing I was glad to have gotten experience in were tools such as ESLint 
 
 Updates will come soon.
 
-Information
----------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
